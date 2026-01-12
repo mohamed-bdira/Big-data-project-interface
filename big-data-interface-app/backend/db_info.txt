@@ -1,0 +1,29 @@
+Connecting to MongoDB...
+✅ Connected!
+
+Available Databases:
+- natours (Size: 290816 bytes)
+  Inspecting 'natours'...
+    -> Collection: reviews (6 docs)
+       Sample: {"_id":"68a341db4337b740dfd0391f","createdAt":"2025-08-18T15:07:12.171Z","review":"that shit is fucling ass dawg","rating":5,"user":["68a33095334b5efbd7eaeec9"],"tour":"5c88fa8cf4afda39709c2955","__v":0}
+    -> Collection: users (24 docs)
+       Sample: {"_id":"5c8a245f2f8fb814b56fa191","name":"Eduardo Hernandez","email":"edu@example.com","role":"user","photo":"user-18.jpg","password":"$2b$12$iRO8G420kK63yGExiMfX9.RWe/R2ZPtwb75mAzVG4bWw98UNPT.KC","active":true,"__v":0}
+    -> Collection: tours (9 docs)
+       Sample: {"_id":"5c88fa8cf4afda39709c2961","name":"The Park Camper","duration":10,"maxGroupSize":15,"difficulty":"medium","ratingsQuantity":7,"ratingsAverage":4.7,"price":1497,"summary":"Breathing in Nature in America's most spectacular National Parks","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!","imageCover":"tour-5-cover.jpg","images":["tour-5-1.jpg","tour-5-2.jpg","tour-5-3.jpg"],"createdAt":"2025-08-21T22:34:56.061Z","startDates":["2021-08-05T09:00:00.000Z","2022-03-20T10:00:00.000Z","2022-08-12T09:00:00.000Z"],"secretTour":false,"startLocation":{"type":"Point","coordinates":[-115.172652,36.110904],"address":"3663 S Las Vegas Blvd, Las Vegas, NV 89109, USA","description":"Las Vegas, USA"},"locations":[{"type":"Point","coordinates":[-112.987418,37.198125],"description":"Zion Canyon National Park","day":1,"_id":"5c88fa8cf4afda39709c2965"},{"type":"Point","coordinates":[-111.376161,36.86438],"description":"Antelope Canyon","day":4,"_id":"5c88fa8cf4afda39709c2964"},{"type":"Point","coordinates":[-112.115763,36.058973],"description":"Grand Canyon National Park","day":5,"_id":"5c88fa8cf4afda39709c2963"},{"type":"Point","coordinates":[-116.107963,34.011646],"description":"Joshua Tree National Park","day":9,"_id":"5c88fa8cf4afda39709c2962"}],"guides":["5c8a21f22f8fb814b56fa18a","5c8a23412f8fb814b56fa18c","5c8a201e2f8fb814b56fa186"],"slug":"the-park-camper","__v":0}
+- smart_agri (Size: 114688 bytes)
+  Inspecting 'smart_agri'...
+    -> Collection: dashboard_view (5 docs)
+       Sample: {"_id":"69653fd397a3ab28d3f6e49b","sensor_id":"soil_01","soil_temp":25.3,"soil_moist":54.6,"soil_ph":6.8,"avg_air_temp":25.6,"avg_air_humid":39.7,"max_wind":8,"total_rain":0,"avg_light":50330,"irrigation_status":"✅ OFF (Moisture Optimal)","disease_risk":"LOW RISK","farm_advisory":"✅ Operations Normal.","ai_advice":"⚠️ AI providers unavailable. Please check API keys/quotas.","plot_summary":"Soil: 54.6% | Air: 25.6°C","status_color":"#388E3C","last_updated":"2026-01-12T18:38:47.626Z"}
+    -> Collection: processed_data (5 docs)
+       Sample: {"_id":"6962b724a543e07273c48d5c","sensor_id":"soil_04","avg_temp":24.67268041237114,"avg_moisture":56.379793814433,"status":"Normal","analysis_time":"2026-01-10T20:31:30.689Z"}
+- test (Size: 118784 bytes)
+  Inspecting 'test'...
+    -> Collection: sensordatas (0 docs)
+    -> Collection: tasks (1 docs)
+       Sample: {"_id":"6957a7c5530ebced916ae139","title":"First Task Added","description":"First Task Added"}
+    -> Collection: users (0 docs)
+    -> Collection: alerts (0 docs)
+- admin (Size: 368640 bytes)
+- local (Size: 9764065280 bytes)
+
+Disconnected.
