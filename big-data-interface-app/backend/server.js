@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Prefer environment variable, fall back to provided Atlas cluster (replace if needed)
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://Bot:Botishere@cluster0.b7shboc.mongodb.net/smart_agri?appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI || "add database uri";
 
 console.log("2. Connecting to Database...");
 
